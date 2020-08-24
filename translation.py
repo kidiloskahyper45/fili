@@ -17,6 +17,7 @@ Channel:-© @TG_BotZ
     UPLOAD_START = "📤 UPLOADING 📤"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thank You For Using Me Join @TG_BotZ**"
+    DOWNLOADING = "📥 DOWNLOADING 📥"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     SAVED_CUSTOM_THUMB_NAIL = "**✅Custom video / file thumbnail saved. This image will be stored permanently**"

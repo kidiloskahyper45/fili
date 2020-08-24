@@ -31,32 +31,18 @@ def GetExpiryDate(chat_id):
     return expires_at
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["help", "about"]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["help"]))
 async def help_user(bot, update):
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/help")
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.HELP_USER,
-        parse_mode="html",
+        #parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
     )
 
-
-@pyrogram.Client.on_message(pyrogram.Filters.command(["me"]))
-async def get_me_info(bot, update):
-    # logger.info(update)
-    TRChatBase(update.from_user.id, update.text, "/me")
-    chat_id = str(update.from_user.id)
-    chat_id, plan_type, expires_at = GetExpiryDate(chat_id)
-    await bot.send_message(
-        chat_id=update.chat.id,
-        text=Translation.CURENT_PLAN_DETAILS.format(chat_id, plan_type, expires_at),
-        parse_mode="html",
-        disable_web_page_preview=True,
-        reply_to_message_id=update.message_id
-    )
 
 
 @pyrogram.Client.on_message(pyrogram.Filters.command(["start"]))
@@ -69,15 +55,26 @@ async def start(bot, update):
         reply_to_message_id=update.message_id
     )
 
-
-@pyrogram.Client.on_message(pyrogram.Filters.command(["upgrade"]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["about"]))
 async def upgrade(bot, update):
     # logger.info(update)
-    TRChatBase(update.from_user.id, update.text, "/upgrade")
+    TRChatBase(update.from_user.id, update.text, "/about")
     await bot.send_message(
         chat_id=update.chat.id,
-        text=Translation.UPGRADE_TEXT,
-        parse_mode="html",
+        text=Translation.ABOUT_USER,
+        #parse_mode="html",
+        reply_to_message_id=update.message_id,
+        disable_web_page_preview=True
+    )
+
+@pyrogram.Client.on_message(pyrogram.Filters.command(["plan"]))
+async def get_me_info(bot, update):
+    # logger.info(update)
+    TRChatBase(update.from_user.id, update.text, "/plan")
+    await bot.send_message(
+        chat_id=update.chat.id,
+        text=Translation.PLAN_TEXT,
+        #parse_mode="html",
         reply_to_message_id=update.message_id,
         disable_web_page_preview=True
     )

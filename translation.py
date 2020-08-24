@@ -25,11 +25,25 @@ Channel:-© @TG_BotZ
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
     CUSTOM_CAPTION_UL_FILE = ""
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
-    CURENT_PLAN_DETAILS = """Current plan details
---------
-Telegram ID: <code>{}</code>
-Plan name: <a href='https://t.me/InFoTelGroup/174'>{}</a>
-Expires on: {}"""
+    ABOUT_USER ="""
+○ **My Name** : URL Uploader
+
+○ **Creator** : <a href="https://t.me/lNS4N3">lNS4N3</a> 
+
+○ **Credits** : ```Everyone in this journey```
+
+○ **Language** : Python3
+
+○ **Library** : <a href="https://docs.pyrogram.org/">Pyrogram asyncio 0.16.1</a> 
+
+○ **Source Code** : <a href=" https://t.me/nokkiirunnoippokittum">👉 Click Here</a> 
+
+○ **Server** : <a href="https://herokuapp.com/">Heroku</a> 
+
+○ **Build Status** : v2.1[Beta]"""
+    PLAN_TEXT = """**Hai Your Plan Details**
+```Plan name: Free User```
+```Expires on: Until my Death 😍```""" 
     HELP_USER = """I can do:
 👉 <a href="https://telegram.dog/FileConvertRobot">Convert To Streamable video any telegram file</a>
 --------

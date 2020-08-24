@@ -1,9 +1,15 @@
 class Translation(object):
-    START_TEXT = """Hello,
-This is a Telegram File convert Bot!
-You can convert any Telegram Document, using this bot! With custom thumbnail
-     
-    """
+    START_TEXT ="""**Hai !!.
+Welcome to File converter Bot..**
+
+```Am a Simple bot for Covert Telegram Media file to Streaming Video/document with Custom Thumbnail Support```
+
+**Do one By One . Otherwise you will get Permenent Ban**
+
+Channel:-© @TG_BotZ
+
+/help for more details.."""
+
     ABS_TEXT = " Please don't be selfish."
     BANNED_USER_TEXT = "you are banned"
     UPGRADE_TEXT = "No upgrade plan 🥰"

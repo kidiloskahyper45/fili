@@ -26,7 +26,7 @@ Channel:-© @TG_BotZ
     CUSTOM_CAPTION_UL_FILE = ""
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     ABOUT_USER ="""
-○ **My Name** : URL Uploader
+○ **My Name** : File Converter
 
 ○ **Creator** : <a href="https://t.me/lNS4N3">lNS4N3</a> 
 
@@ -66,6 +66,6 @@ Channel:-© @TG_BotZ
 /converttofile -
 ```Use this Command To Get Document File```
 /deletethumbnail -
-```Delete Your Saved Thumbnail``` 
+```Delete Your Saved Thumbnail```"""
 
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"

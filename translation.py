@@ -20,7 +20,7 @@ Channel:-© @TG_BotZ
     DOWNLOADING = "📥 DOWNLOADING 📥"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
-    SAVED_CUSTOM_THUMB_NAIL = "**✅Custom video / file thumbnail saved. This image will be stored permanently**"
+    SAVED_CUSTOM_THUMB_NAIL = "**✅Custom video / file thumbnail saved. This Image Will Cleared With in 24 Hrs**"
     DEL_ETED_CUSTOM_THUMB_NAIL = "**✅ Custom thumbnail cleared succesfully.**"
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."

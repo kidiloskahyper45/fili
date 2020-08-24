@@ -26,7 +26,6 @@ import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 from helper_funcs.chat_base import TRChatBase
-import database.database as sql
 
 
 @pyrogram.Client.on_message(pyrogram.Filters.command(["generatecustomthumbnail"]))
@@ -101,7 +100,6 @@ async def save_photo(bot, update):
         # create download directory, if not exist
         if not os.path.isdir(download_location):
             os.makedirs(download_location)
-        await sql.df_thumb(update.from_user.id, update.message_id)
         await bot.download_media(
             message=update,
             file_name=download_location
@@ -109,7 +107,6 @@ async def save_photo(bot, update):
     else:
         # received single photo
         download_location = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".jpg"
-        await sql.df_thumb(update.from_user.id, update.message_id)
         await bot.download_media(
             message=update,
             file_name=download_location
@@ -135,7 +132,6 @@ async def delete_thumbnail(bot, update):
     try:
         os.remove(download_location + ".jpg")
         # os.remove(download_location + ".json")
-        await sql.del_thumb(update.from_user.id)
     except:
         pass
     await bot.send_message(

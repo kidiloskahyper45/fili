@@ -36,7 +36,7 @@ Channel:-© @TG_BotZ
 
 ○ **Library** : <a href="https://docs.pyrogram.org/">Pyrogram asyncio 0.16.1</a> 
 
-○ **Source Code** : <a href=" https://t.me/nokkiirunnoippokittum">👉 Click Here</a> 
+○ **Source Code** : <a href="https://github.com/shadz/convert-2-File">👉 Click Here</a> 
 
 ○ **Server** : <a href="https://herokuapp.com/">Heroku</a> 
 
@@ -44,18 +44,28 @@ Channel:-© @TG_BotZ
     PLAN_TEXT = """**Hai Your Plan Details**
 ```Plan name: Free User```
 ```Expires on: Until my Death 😍```""" 
-    HELP_USER = """I can do:
-👉 <a href="https://telegram.dog/FileConvertRobot">Convert To Streamable video any telegram file</a>
---------
+    HELP_USER = """**Hei Follow These Steps**
 
-🔥 How to deploy : <a href='https://youtu.be/zQamSjXBpJU'>Click here</a>
+**1.** Send A Telegram Media To Convert
+**2.** Send Custom Thumbnail
+**3.** Replay to a Telegram Media /converttovideo Or /converttofile
 
-    © Group   : @InfotelGroup
-    © Channel : @DX_BotZ 
-    © credits : @Spechide
+**Features**
 
-Send /me to know current plan details
+  **>>>** 
+```Convert any Telegram Document to Streaming Video```
+  **>>>** 
+```Convert any Streaming Video to Telegram Document```
+  **>>>** 
+```Custom thumbnail Support```
 
-"""
+**Available Commands**
+
+/converttovideo -
+```Use This Command To Get Streamable Video```
+/converttofile -
+```Use this Command To Get Document File```
+/deletethumbnail -
+```Delete Your Saved Thumbnail``` 
 
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"

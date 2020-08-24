@@ -56,7 +56,7 @@ async def convert_to_file(bot, update):
             if os.path.exists(thumb_image_path):
                 thumb_image_path = thumb_image_path
             else:
-            	thumb_image_path = none
+            	thumb_image_path = None
             c_time = time.time()
             await bot.send_document(
                 chat_id=update.chat.id,

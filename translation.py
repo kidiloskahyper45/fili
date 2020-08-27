@@ -6,8 +6,6 @@ Welcome to File converter Bot..**
 
 **Do one By One . Otherwise you will get Permenent Ban**
 
-Channel:-© @TG_BotZ
-
 /help for more details.."""
 
     ABS_TEXT = " Please don't be selfish."

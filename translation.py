@@ -2,7 +2,7 @@ class Translation(object):
     START_TEXT ="""**Hai !!.
 Welcome to File converter Bot..**
 
-```Am a Simple bot for Covert Telegram Media file to Streaming Video/document with Custom Thumbnail Support```
+```Am a Simple bot for Convert Telegram Media file to Streaming Video/document with Custom Thumbnail Support```
 
 **Do one By One . Otherwise you will get Permenent Ban**
 

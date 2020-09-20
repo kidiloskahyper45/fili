@@ -10,19 +10,24 @@ import time
 from sample_config import Config
 from translation import Translation
 import pyrogram
-
+from pyrogram import Client, Filters, InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram.errors import UserNotParticipant 
 from helper_funcs.display_progress import progress_for_pyrogram
 from PIL import Image
 
 
 @pyrogram.Client.on_message(pyrogram.Filters.command(["converttofile"]))
 async def convert_to_file(bot, update):
-    if update.from_user.id in Config.AUTH_USERS:
+    try:
+        await bot.get_chat_member("@TG_BotZ", update.chat.id)
+    except UserNotParticipant:
         await bot.send_message(
             chat_id=update.chat.id,
-            text=Translation.BANNED_USER_TEXT,
-            reply_to_message_id=update.message_id
-        )
+            text=Translation.JOIN,
+            reply_markup=InlineKeyboardMarkup([[
+                    InlineKeyboardButton('😎 Join Channel 😎', url='https://t.me/Tg_BotZ')
+                ]])
+        ) 
         return
         
     logger.info(update)    

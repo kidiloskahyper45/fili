@@ -1,12 +1,10 @@
 class Translation(object):
-    START_TEXT ="""**Hai !!.
+    START_TEXT ="""**Hai <b>{}<b/> !!.
 Welcome to File converter Bot..**
 
 ```Am a Simple bot for Convert Telegram Media file to Streaming Video/document with Custom Thumbnail Support```
 
-**Do one By One . Otherwise you will get Permenent Ban**
-
-/help for more details.."""
+**>> You Must Join My Updates Channel For Using Me 😇**"""
 
     ABS_TEXT = " Please don't be selfish."
     BANNED_USER_TEXT = "you are banned"

@@ -25,7 +25,7 @@ class Translation(object):
     ABOUT_USER ="""
 ○ **My Name** : Renamer
 
-○ **Creator** : <a href="https://t.me/INSA_3N">INSA_3N</a> 
+○ **Creator** : <a href="https://t.me/INSA_N3">INSA_N3</a> 
 
 ○ **Credits** : ```Everyone in this journey```
 
@@ -41,7 +41,7 @@ class Translation(object):
     ABOUT_1 ="""
 ○ **My Name** : Renamer
 
-○ **Creator** : <a href="https://t.me/INSA_3N">INSA_3N</a> 
+○ **Creator** : <a href="https://t.me/INSA_N3">INSA_N3</a> 
 
 ○ **Credits** : ```Everyone in this journey```
 

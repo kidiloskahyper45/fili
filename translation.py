@@ -22,10 +22,11 @@ Welcome to File converter Bot..**
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
     CUSTOM_CAPTION_UL_FILE = ""
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
+    JOIN = """**Sorry Dear You Must Join My Updates Channel To Perform That Operation 😌....**"""
     ABOUT_USER ="""
-○ **My Name** : File Converter
+○ **My Name** : Renamer
 
-○ **Creator** : <a href="https://t.me/lNS4N3">lNS4N3</a> 
+○ **Creator** : <a href="https://t.me/INSA_3N">INSA_3N</a> 
 
 ○ **Credits** : ```Everyone in this journey```
 
@@ -33,12 +34,28 @@ Welcome to File converter Bot..**
 
 ○ **Library** : <a href="https://docs.pyrogram.org/">Pyrogram asyncio 0.16.1</a> 
 
-○ **Source Code** : <a href="https://github.com/sahadz/convert-2-video">👉 Click Here</a> 
+○ **Source Code** : <a href="https://t.me/nokkiirunnoippokittum">👉 Click Here</a> 
 
 ○ **Server** : <a href="https://herokuapp.com/">Heroku</a> 
 
-○ **Build Status** : v2.1[Beta]"""
-    PLAN_TEXT = """**Hai Your Plan Details**
+○ **Build Status** : v2.1[Beta]""" 
+    ABOUT_1 ="""
+○ **My Name** : Renamer
+
+○ **Creator** : <a href="https://t.me/INSA_3N">INSA_3N</a> 
+
+○ **Credits** : ```Everyone in this journey```
+
+○ **Language** : Python3
+
+○ **Library** : <a href="https://docs.pyrogram.org/">Pyrogram asyncio 0.16.1</a> 
+
+○ **Source Code** : <a href="https://t.me/nokkiirunnoippokittum">👉 Click Here</a> 
+
+○ **Server** : <a href="https://herokuapp.com/">Heroku</a> 
+
+○ **Build Status** : v2.1[Beta]""" 
+    PLAN_TEXT = """**Hai** <b>{}</b> **Your Plan Details**
 ```Plan name: Free User```
 ```Expires on: Until my Death 😍```""" 
     HELP_USER = """**Hei Follow These Steps**

@@ -77,7 +77,7 @@ async def help_user(bot, update):
             [
                 [
                     InlineKeyboardButton('✅  Other Bots ', url='https://t.me/TG_BotZ/33'),
-                    InlineKeyboardButton('Share & Support Me', url='https://t.me/share/url?url=Hai%20Friend%2C%0D%0AAm%20Introducing%20a%20Powerful%20%2A%2ARename%20Bot%2A%2A%20for%20Free.%0D%0A%2A%2ABot%20Link%2A%2A%20%3A%20%40TGRename_Bot')
+                    InlineKeyboardButton('Share & Support Me', url='https://t.me/share/url?url=Hai%20Friend%2C%0D%0AAm%20Introducing%20a%20Powerful%20%2A%2AConverter%20Bot%2A%2A%20for%20Free.%0D%0A%2A%2ABot%20Link%2A%2A%20%3A%20%40FileConverterTGBot')
                 ],
                 [
                     InlineKeyboardButton('⚒️ About Me', callback_data='about'),

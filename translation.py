@@ -1,6 +1,5 @@
 class Translation(object):
-    START_TEXT ="""**Hai <b>{}<b/> !!.
-Welcome to File converter Bot..**
+    START_TEXT ="""**Hai <b>{}</b> !!**
 
 ```Am a Simple bot for Convert Telegram Media file to Streaming Video/document with Custom Thumbnail Support```
 

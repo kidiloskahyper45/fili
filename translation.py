@@ -19,7 +19,7 @@ class Translation(object):
     DEL_ETED_CUSTOM_THUMB_NAIL = "**✅ Custom thumbnail cleared succesfully.**"
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
-    CUSTOM_CAPTION_UL_FILE = " *<b>{}</b> \n\nConverted By @FileConverterTGBot**"
+    CUSTOM_CAPTION_UL_FILE = "**\nConverted By @FileConverterTGBot**"
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     JOIN = """**Sorry Dear You Must Join My Updates Channel To Perform That Operation 😌....**"""
     ABOUT_USER ="""
